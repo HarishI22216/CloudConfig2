@@ -1,0 +1,26 @@
+spring:
+  config:
+    import:
+    - vault://secret/manageuserrole 
+  cloud:
+    vault:
+      kv:
+        enabled: true
+      scheme: http
+      token: hvs.z7hKpgMHS0uHoioI5zxYzoYt
+  application:
+    name: manageuserrole
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+value:
+  rendered: SecondchangedStaging
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+ds:
+  url: jdbc:mysql://localhost:3306/testDB
