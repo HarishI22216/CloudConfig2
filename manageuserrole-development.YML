@@ -1,6 +1,6 @@
 spring:
   consul:
-	port:8500
+      port:8500
   jpa:
     hibernate:
       ddl-auto: update
