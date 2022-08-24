@@ -1,7 +1,4 @@
 spring:
-  consul:
-    host: host.docker.internal
-    port: 8500
   jpa:
     hibernate:
       ddl-auto: update
