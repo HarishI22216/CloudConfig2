@@ -11,4 +11,4 @@ management:
         include:
         - "*"
 ds:
-  url: jdbc:mysql://localhost:3306/testDB
+  url: jdbc:mysql://host.docker.internal:3306/testDB
