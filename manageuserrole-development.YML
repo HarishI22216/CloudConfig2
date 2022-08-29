@@ -1,4 +1,6 @@
-spring:  
+spring:
+  cache:
+    type: redis
   jpa:
     hibernate:
       ddl-auto: update
