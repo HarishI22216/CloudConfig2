@@ -1,0 +1,16 @@
+spring:
+   jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+db:
+  username: root
+  password: root
+  url: jdbc:mysql://localhost:3306/testDB
