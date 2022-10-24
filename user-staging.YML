@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+value:
+  rendered: SecondchangedStaging
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+ds:
+  url: jdbc:mysql://localhost:3306/testDB
